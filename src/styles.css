@@ -1,0 +1,131 @@
+.logoypi {
+    margin: 0 90px;
+}
+.logo-login {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+.login-card{
+    width: 400px;
+    max-width: 100%;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container img {
+    margin-right: 15px; 
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: black; 
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid 1px grey;
+    margin-left: 10px;
+}
+.table-container {
+    padding: 20px;
+}
+.table-centered {
+    width: 75%;
+    margin: auto;
+}
+.table-centered td, .table-centered th {
+    padding: 15px; 
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .header-container {
+        gap: 8px;
+    }
+
+    .logoypi{
+        margin: 0;
+        padding: 20px;    
+    }
+    .logo-login {
+        width: 150px;
+    }
+    .logo-container {
+        flex: 1;
+    }
+
+    .logo-container img {
+        width: 50px !important;
+        height: 50px !important;
+        margin-right: 8px;
+    }
+
+    .logo-container h1 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .profile {
+        gap: 6px;
+    }
+
+    .profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile p {
+        font-size: 11px;
+        max-width: 65px;
+        overflow-wrap: anywhere;
+    }
+
+    .row > .col-md-2 {
+        min-height: auto !important;
+        padding: 10px 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        padding: 8px 12px;
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .nav-item {
+        margin-bottom: 5px !important;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 10px 12px;
+    }
+}
