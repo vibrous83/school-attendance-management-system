@@ -10,3 +10,6 @@ Developed a web-based school attendance management system using photo and GPS lo
   
 ## Outcome:
 Successfully developed a centralized attendance management system that helps administrators manage employee attendance records and enables employees to record and monitor their daily attendance more efficiently.
+
+## Live Demo:
+https://absensiypi.wuaze.com/
